@@ -2,7 +2,7 @@ name: run-redshift
 on:
   workflow_dispatch:
     inputs:
-      environments:
+      environment:
       type: environment
       description: Select the environment
 jobs:
