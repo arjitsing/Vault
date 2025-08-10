@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-      type: environment
-      description: Select the environment
+        type: environment
+        description: Select the environment
 jobs:
   deploy:
   runs-on: ubuntu-latest
